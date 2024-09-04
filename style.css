@@ -1,0 +1,74 @@
+* {
+    font-family: "PT Serif", serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dc3545; /* Adjusted for better contrast */
+}
+
+h1 {
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.table-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.info-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 48%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.info-card h5 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #343a40;
+}
+
+.info-card p {
+    font-size: 16px;
+    color: #495057;
+}
+
+@media (max-width: 768px) {
+    .info-card {
+        max-width: 100%;
+    }
+}
+
+.form-control, .btn {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+@media (max-width: 576px) {
+    .btn {
+        width: 100%;
+    }
+}
